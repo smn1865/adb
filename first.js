@@ -23,7 +23,7 @@
 //         if (arr[i] % 2 === 0) { // checking if the number is even
 //             evenNumbers.push(arr[i]); // adding to new array
 //         }
-//         i++; // increasing the index by 1
+//         i++; // increasing the index by 1 // ++i
 //     }
 //     console.log(evenNumbers); // printing the even numbers array
 // }
@@ -167,3 +167,99 @@
 // }
 
 // console.log(people);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//While do
+
+
+// Task 1: Finding the Maximum Value in an Array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Task 3: Finding Numbers Divisible by 3 in an Array
+// arr = [0, 3, 9, 5, 12];
+
+// function div(arr) {
+//     let dividedBy3 = [];
+//     let i = 0;
+//     do {
+//         if (arr[i] % 3 === 0) {
+//             dividedBy3.push(arr[i]);
+//         }
+//         i++;
+//     } while (i < arr.length);
+//     console.log(dividedBy3);
+// }
+
+// div(arr);
+
+// Task 5: Finding Negative Numbers in an Array
+// const numbers = [15, -3, 22, -8, 3, -10, 14];
+
+// const negativeNumbers = [];
+// let i = 0;
+
+// do {
+//     if (numbers[i] < 0) {
+//         negativeNumbers.push(numbers[i]);
+//     }
+//     i++;
+// } while (i < numbers.length);
+
+// console.log("Array with only negative numbers:", negativeNumbers);
+
+// Task 7: Summing Adjacent Pairs in an Array
+// const numbers = [15, -3, 22, -8, 3, -10, 14];
+
+// const sumPairs = [];
+// let i = 0;
+
+// do {
+//     sumPairs.push(numbers[i] + numbers[i + 1]);
+//     i++;
+// } while (i < numbers.length - 1);
+
+// console.log("Sum Pairs:", sumPairs);
+
+// Task 9: Converting Numbers to Strings in an Array
+// const numbers = [15, -3, 22, -8, 3, -10, 14];
+
+// const stringNumbers = [];
+// let i = 0;
+
+// do {
+//     stringNumbers.push(numbers[i].toString());
+//     i++;
+// } while (i < numbers.length);
+
+// console.log("Array of string numbers:", stringNumbers);
