@@ -18,4 +18,23 @@
 
 // console.log(countOccurrences(numbers));
 
-let numbers 
+// let numbers = [2, 5, 7, 3, 8, 8, 3, 2];
+
+// function countOccurrences(arr) {
+//     let counts = {};
+//     let i = 0;
+
+//     do {
+//         let num = arr[i];
+
+//         if (counts[num]) {
+//             counts[num]++;
+//         }
+//         i++;
+//     } while (i < arr.length);
+    
+//     return counts;
+// }
+
+// console.log(countOccurrences(numbers));
+
